@@ -1,0 +1,21 @@
+name: dingtalk_kit_example
+description: Local example for the dingtalk_kit plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Use the adjacent local plugin, not a hosted package.
+  dingtalk_kit:
+    path: ../
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

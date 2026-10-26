@@ -1,0 +1,30 @@
+name: dingtalk_kit
+description: DingTalk sharing and authorization plugin for Flutter, with Android, iOS and OHOS implementations and typed response streams.
+version: 1.0.5
+# homepage / repository: add the public GitHub URL when available.
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  # Keep these registration identifiers aligned with the native classes.
+  # Dart uses DingtalkKit and the dingtalk_kit MethodChannel.
+  plugin:
+    platforms:
+      android:
+        package: com.dingtalk.kit
+        pluginClass: DingtalkKitPlugin
+      ios:
+        pluginClass: DingtalkKitPlugin
+      ohos:
+        package: dingtalk_kit
+        pluginClass: DingtalkKitPlugin

@@ -1,0 +1,12 @@
+{
+  "name": "dingtalk_kit",
+  "version": "1.0.0",
+  "description": "DingTalk SDK flutter plugin for OpenHarmony (OHOS). Sharing support.",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har",
+    "@dingtalk/ddsharesdk": "file:./src/libs/ddsharesdk.har"
+  }
+}

@@ -1,0 +1,24 @@
+# Applies to the clean release snapshot as well as direct pub commands.
+.git/
+.dart_tool/
+.pub/
+.packages
+pubspec.lock
+build/
+**/build/
+**/.dart_tool/
+**/.gradle/
+**/.hvigor/
+**/oh_modules/
+**/Pods/
+**/.symlinks/
+**/.DS_Store
+**/.flutter-plugins*
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.mobileprovision
+tool/
+pub-validation.log
